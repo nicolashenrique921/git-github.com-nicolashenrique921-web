@@ -2,7 +2,7 @@ const express = require('express');
 const { randomUUID } = require('crypto'); // para gerar o GUID
 const app = express();
 
-app.use(express.json()); // Para permitir receber dados no formato JSON
+app.use(express.json());
 
 // Array para armazenar as pessoas
 let pessoas = [];
